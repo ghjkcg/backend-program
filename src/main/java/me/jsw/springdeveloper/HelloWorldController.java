@@ -12,10 +12,11 @@ public class HelloWorldController {
     public String hello() {
         return  "Hello World!";
     }
-    @GetMapping("/test")
-    public String test() {
-        return "Hello Everyone!";
-    }
+   // @GetMapping("/test")
+    //public String test() {
+    //    return "Hello Everyone!";
+ //   }
+
     @GetMapping("/Asuka")
     public String Asuka() {
         return "I Love you";
@@ -26,10 +27,6 @@ public class HelloWorldController {
         return "Post Test response!!!!";
     }
 
-    @PostMapping("/test")
-    public String deleteTest(){
-        return "Delete Test response!!!!";
-    }
 
     @PutMapping ("/test")
     public String putTest(){
